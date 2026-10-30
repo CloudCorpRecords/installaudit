@@ -1,0 +1,1 @@
+{"dependencies":{"@scope/direct-b":"2.0.0","direct-a":"1.2.3"},"devDependencies":{"plain-dev":"4.0.0"},"name":"fixture-dep-scripts","private":true,"scripts":{"test":"node --test"},"version":"1.0.0"}

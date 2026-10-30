@@ -1,0 +1,52 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "description": "Install-script inventory for a dependency tree: what runs when you install.",
+  "name": "io.github.CloudCorpRecords/installaudit",
+  "packages": [
+    {
+      "identifier": "@reneturcios/installaudit",
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ],
+      "registryBaseUrl": "https://registry.npmjs.org",
+      "registryType": "npm",
+      "runtimeHint": "npx",
+      "transport": {
+        "type": "stdio"
+      },
+      "version": "0.1.0"
+    },
+    {
+      "identifier": "ghcr.io/cloudcorprecords/installaudit:0.1.0",
+      "packageArguments": [
+        {
+          "type": "positional",
+          "value": "mcp"
+        }
+      ],
+      "registryType": "oci",
+      "runtimeArguments": [
+        {
+          "name": "--rm",
+          "type": "named"
+        },
+        {
+          "name": "-i",
+          "type": "named"
+        }
+      ],
+      "runtimeHint": "docker",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ],
+  "repository": {
+    "source": "github",
+    "url": "https://github.com/CloudCorpRecords/installaudit"
+  },
+  "version": "0.1.0"
+}

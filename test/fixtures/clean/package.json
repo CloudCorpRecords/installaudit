@@ -1,0 +1,1 @@
+{"dependencies":{"alpha":"1.0.0"},"devDependencies":{"beta":"2.0.0"},"name":"fixture-clean","private":true,"scripts":{"prepare":"tsc --build","test":"node --test"},"version":"1.0.0"}
